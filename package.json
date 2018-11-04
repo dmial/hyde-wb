@@ -1,15 +1,15 @@
 {
-  "name": "hyde-y",
-  "version": "0.0.5",
+  "name": "hyde-iwb",
+  "version": "0.0.1",
   "description": "Modular HTML5 theme for Hugo",
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.3.2",
     "grunt-contrib-cssmin": "^0.13.0",
-    "grunt-contrib-less": "^1.0.1",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   },
   "scripts": {
     "build:css": "grunt build:css",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enten/hyde-y.git"
+    "url": "git+https://github.com/dmial/hyde-iwb.git"
   },
   "keywords": [
     "theme",
@@ -28,10 +28,5 @@
     "static",
     "site"
   ],
-  "author": "Steven Enten <steven@enten.fr>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enten/lego/issues"
-  },
-  "homepage": "https://github.com/enten/lego#readme"
+  "license": "MIT"
 }
