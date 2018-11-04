@@ -1,10 +1,10 @@
-Hyde-Y
+Hyde-iOSWitBit
 ======
 
-<small>Forked from [Hyde-X](https://github.com/zyro/hyde-x)</small>
+<small>Forked from [Hyde-Y](https://github.com/enten/hyde-y)</small>
 
-You can find a live site using this theme [here](http://enten.github.io/hugo-boilerplate/)
-and the corresponding source code [here](https://github.com/enten/hugo-boilerplate).
+You can find a live site using this theme [here](https://ios.witbit.io)
+and the corresponding source code [here](https://github.com/dmial/ios-wit-bit).
 
 ## Screenshot
 
