@@ -4,9 +4,11 @@
   {{ with .Params.author }}
     &middot; {{ $.Site.Data.Strings.byauthor }} {{ . }}
   {{ end }}
-  &middot; {{ .Site.Data.Strings.metaReadin }} {{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}
-  &middot; ({{ .WordCount }} {{ .Site.Data.Strings.words }})
-  <br>
+  {{ if .Site.Params.readingMeasures }}
+    &middot; {{ .Site.Data.Strings.metaReadin }} {{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}
+    &middot; ({{ .WordCount }} {{ .Site.Data.Strings.words }})
+    {{ end }}
+    <br>
   {{ partial "modules/page/tags" . }}
 {{ end }}
 </div>
