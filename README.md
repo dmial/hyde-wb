@@ -1,10 +1,9 @@
-Hyde-iOSWitBit
+Hyde-WB
 ======
 
 <small>Forked from [Hyde-Y](https://github.com/enten/hyde-y)</small>
 
-You can find a live site using this theme [here](https://ios.witbit.io)
-and the corresponding source code [here](https://github.com/dmial/ios-wit-bit).
+You can find a live site using Hyde-WB theme [here](https://witbit.io) and the corresponding source code [here](https://github.com/dmial/wit-bit-site).
 
 ## Screenshot
 
